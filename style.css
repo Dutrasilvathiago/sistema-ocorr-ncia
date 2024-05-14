@@ -1,0 +1,14 @@
+div{
+    text-align: right;
+    display: flex; /* declarar o flexbox */
+    flex-direction: row; /* alinhamento por linha ou horizontal */
+    justify-content: space-around; /* centralizcao dos elementos */
+    align-items: baseline; /* posicionamento perpendicular */
+}
+button{
+    height: 50px;
+    width: 100px;
+}
+img{
+    width: 100px;
+}
