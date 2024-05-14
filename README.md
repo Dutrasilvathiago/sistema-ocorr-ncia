@@ -1,1 +1,1 @@
-# sistema-ocorr-ncia
+# sistema-ocorrencia
