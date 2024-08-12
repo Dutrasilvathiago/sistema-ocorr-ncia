@@ -1,9 +1,12 @@
-div{
-    text-align: right;
+.caixa1{
+
     display: flex; /* declarar o flexbox */
-    flex-direction: row; /* alinhamento por linha ou horizontal */
-    justify-content: space-around; /* centralizcao dos elementos */
-    align-items: baseline; /* posicionamento perpendicular */
+    flex-direction: column; /* alinhamento por linha ou horizontal */
+    justify-content: center; /* centralizcao dos elementos */
+    align-items: center;
+    grid-area: b;
+    background-color: #006fbf;
+    width: auto;
 }
 button{
     height: 50px;
@@ -11,4 +14,22 @@ button{
 }
 img{
     width: 100px;
+    grid-area: b;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    grid-gap: 5px;
+    grid-template-rows: auto 1000px auto;
+}
+header{
+    grid-area: a;
+    background-color: red;
+}
+footer{
+    grid-area: c;
+    background-color: blue;
 }
