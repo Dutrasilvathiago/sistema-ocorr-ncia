@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cadastro de Produtos</title>
+  <title>cadastro aluno</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    </header>
-     <div class="caixa1">   
-        <img src="imagens/perfil.png" alt="">
-        <form id="formularioProduto">
-                
-                <label for="nomeProduto">Nome:</label>
-                <input type="text" id="nomeProduto" name="nomeProduto"><br><br>
-                <label for="nomeProduto">Email:</label>
-                <input type="email" id="nomeProduto" name="nomeProduto"><br><br>
-                <label for="nomeProduto">Senha:</label>
-                <input type="password" id="nomeProduto" name="nomeProduto"><br><br>
-                <button type="button" onclick="adicionarProduto()">Cadastrar</button>
-        </form>
-    </div>    
+  <h1>cadastre-se</h1>
+  <div class="form">
+    <label for="name">Nome Aluno:</label>
+    <input type="text" id="nome" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="em" name="email" required><br><br>
+
+    <label for="password">senha:</label>
+    <input type="password" id="senha" name="password" required><br><br>
+
+    <button onclick="cadastro()">cadastrar</button>
+
+    <p>nome: <span id="omen"></span></p>
+    <p>email: <span id="liame"></span></p>
+    <p>senha: <span id="anhes"></span></p>
+
+  </div>
+
+  <script src="front.js"></script>
 </body>
-<footer>
-</footer>
 </html>
