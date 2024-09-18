@@ -33,7 +33,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   
   button {
@@ -43,4 +43,8 @@ body {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+  }
+
+  img{
+    width: 400px;
   }
