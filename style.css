@@ -48,3 +48,9 @@ body {
   img{
     width: 400px;
   }
+  .im{
+    width: auto;
+  }
+  header{
+    margin-bottom: auto;
+  }
