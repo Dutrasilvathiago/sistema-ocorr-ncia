@@ -1,13 +1,23 @@
-
+.btn_home{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    color: #006FBF;
+    
+    
+}
 
 .logo{
     position: absolute;
     top: 5%;
+    left: 47%;
 }
-.login{
+.login_btn{
     position: absolute;
-    top: 7%;
-    left: 45%;
+    top: 8%;
+    left: 44%;
+    color: #006FBF;
+   
     
 }
 .cadastrar{
@@ -19,6 +29,12 @@
     position: absolute;
     left: 2%;
     top: 7%;
+}
+
+.nome_perfil{
+    position: absolute;
+    left: 6%;
+    top: 10%;
 }
 
 .btn_config{
@@ -74,24 +90,16 @@ main{
     position: absolute;
     height: 50%;
     top: 30%;
+    left: 10%;
     
 
 }
 
 
-
-
-
-
-
-
-
 .btn_oco{
     position: absolute;
-    align-self: center;
-    justify-content: center;
-    padding-left: 40%;
-    padding-top: 10%;
+    top: 30%;
+    left: 41%;
     height: 50%;
 }
 
