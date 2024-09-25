@@ -45,9 +45,19 @@ body {
     cursor: pointer;
   }
 
+  .btn_voltar{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
   img{
     width: auto;
   }
+
   .im{
     width: auto;
   }
