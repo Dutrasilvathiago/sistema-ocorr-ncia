@@ -1,42 +1,36 @@
-.btn_home{
-    position: absolute;
-    top: 10%;
-    left: 42%;
-    color: #006FBF;
-}
-
 .logo{
     position: absolute;
     top: 5%;
     left: 47%;
 }
-
 .login_btn{
     position: absolute;
     top: 8%;
     left: 12%;
-    color: #006FBF;   
+    color: #006FBF;
+    
 }
+
 
 .login_prof{
     position: absolute;
     top: 8%;
     left: 4%;
     color: #006FBF;
+    
 }
-
 .login_ocor{
     position: absolute;
     top: 8%;
     left: 16%;
     color: #006FBF;
+    
 }
 .cadastrar{
     position: absolute;
     top: 7%;
     left: 55%;
 }
-
 .foto_perfil{
     position: absolute;
     left: 2%;
@@ -53,6 +47,7 @@
     position: absolute;
     left: 90%;
     top: 7%;
+
 }
 
 .time{
@@ -61,6 +56,7 @@
     top: 15%;
     font-style: oblique;
 }
+
 
 body{
     margin-right: 20px;
@@ -77,6 +73,7 @@ body{
     grid-gap: 4px;/*espaçamento entres o main, aside , header e footer */
 }
 
+
 header{
     margin: 1%;
     text-align: center;
@@ -85,7 +82,9 @@ header{
     height: 10rem;
 }
 
+
 main{
+
     margin: 1%;
     position: relative;
     grid-area: mai;
@@ -97,8 +96,11 @@ main{
     position: absolute;
     height: 50%;
     top: 30%;
-    left: 10%;
+    left: 11%;
+    
+
 }
+
 
 .btn_oco{
     position: absolute;
@@ -109,14 +111,20 @@ main{
 
 .btn_cfg{
     position: absolute;
-    align-self: center;
-    justify-content: center;
-    padding-left: 70%;
-    padding-top: 10%;
+    top: 30%;
+    left: 71%;
     height: 50%;
+    
 }
 
+
+
+
+
+
+
 aside{
+    
     margin: 1%;
     height: auto;
     grid-area: asi;
@@ -124,10 +132,11 @@ aside{
     height: 10rem;
 }
 
-footer{ 
+footer{
+    
     margin: 1%;
     position: relative;
     grid-area: foo;
     background-color: #EFEFEF;
-    height: 10rem;
+    height: 3rem;
 }
