@@ -15,9 +15,22 @@
 .login_btn{
     position: absolute;
     top: 8%;
-    left: 44%;
+    left: 12%;
     color: #006FBF;
-   
+    
+}
+.login_prof{
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    color: #006FBF;
+    
+}
+.login_ocor{
+    position: absolute;
+    top: 8%;
+    left: 16%;
+    color: #006FBF;
     
 }
 .cadastrar{
