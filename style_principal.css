@@ -3,8 +3,6 @@
     top: 10%;
     left: 42%;
     color: #006FBF;
-    
-    
 }
 
 .logo{
@@ -12,32 +10,27 @@
     top: 5%;
     left: 47%;
 }
+
 .login_btn{
     position: absolute;
     top: 8%;
-    left: 12%;
-    color: #006FBF;
-    
+    left: 44%;
+    color: #006FBF;   
 }
+
 .login_prof{
     position: absolute;
     top: 8%;
-    left: 4%;
+    left: 52.5%;
     color: #006FBF;
-    
 }
-.login_ocor{
-    position: absolute;
-    top: 8%;
-    left: 16%;
-    color: #006FBF;
-    
-}
+
 .cadastrar{
     position: absolute;
     top: 7%;
     left: 55%;
 }
+
 .foto_perfil{
     position: absolute;
     left: 2%;
@@ -54,7 +47,6 @@
     position: absolute;
     left: 90%;
     top: 7%;
-
 }
 
 .time{
@@ -63,7 +55,6 @@
     top: 15%;
     font-style: oblique;
 }
-
 
 body{
     margin-right: 20px;
@@ -80,7 +71,6 @@ body{
     grid-gap: 4px;/*espaçamento entres o main, aside , header e footer */
 }
 
-
 header{
     margin: 1%;
     text-align: center;
@@ -89,9 +79,7 @@ header{
     height: 10rem;
 }
 
-
 main{
-
     margin: 1%;
     position: relative;
     grid-area: mai;
@@ -104,10 +92,7 @@ main{
     height: 50%;
     top: 30%;
     left: 10%;
-    
-
 }
-
 
 .btn_oco{
     position: absolute;
@@ -123,17 +108,9 @@ main{
     padding-left: 70%;
     padding-top: 10%;
     height: 50%;
-    
 }
 
-
-
-
-
-
-
 aside{
-    
     margin: 1%;
     height: auto;
     grid-area: asi;
@@ -141,8 +118,7 @@ aside{
     height: 10rem;
 }
 
-footer{
-    
+footer{ 
     margin: 1%;
     position: relative;
     grid-area: foo;

@@ -3,8 +3,6 @@
     top: 10%;
     left: 42%;
     color: #006FBF;
-    
-    
 }
 
 h1 {
@@ -77,6 +75,7 @@ tr:hover {
     top: 7%;
     left: 55%;
 }
+
 .foto_perfil{
     position: absolute;
     left: 2%;
@@ -130,7 +129,6 @@ header{
 
 
 main{
-
     margin: 1%;
     position: relative;
     grid-area: mai;
@@ -143,8 +141,6 @@ main{
     height: 50%;
     top: 30%;
     left: 10%;
-    
-
 }
 
 
@@ -162,11 +158,9 @@ main{
     padding-left: 70%;
     padding-top: 10%;
     height: 50%;
-    
 }
 
 aside{
-    
     margin: 1%;
     height: auto;
     grid-area: asi;
@@ -175,7 +169,6 @@ aside{
 }
 
 footer{
-    
     margin: 1%;
     position: relative;
     grid-area: foo;
