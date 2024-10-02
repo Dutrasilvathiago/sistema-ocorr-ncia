@@ -3,54 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema Ocorrencia</title>
-    <link rel="stylesheet" href="historico.css">
+    <title>Sistema Ocorrência</title>
+    <link rel="stylesheet" href="css/style_historico.css">
     
 </head>
 <body>
     <header>
-        <img src="foto_perfil.png" alt="">
-        <button><a href="principal.html"><h3 class="btn_home">Principal</h3></a></button>
-        <img src="imagens/logo.png" alt="" class="logo">
-       <a href="confing;html"><img src="imagens/confg.png"class="btn_config"></a>
-        <time datetime="AAAA-MM-DDTHH:MM:SS" class="time">23/09/2024</time>
-
-
+        <img src="imagens/Logo PNG.png" alt="" class="logo" >
+        <nav class="pagina">
+            <ul>
+                <li><a id="h2header" href="principal.html">Principal</a></li>
+                <li><a id="h2header" href="cadastro-ocorrencia.html">Relatar</a></li>
+                <li><a id="h2header" href="cadastro_prof.html">Cadastrar</a></li>
+            </ul>
+        </nav>
     </header>
-    
     
     <main>
         <h1>Histórico de Ocorrencias</h1>
         <table>
             <thead>
                 <tr>
-                    <th>Nome</th>
-                    <th>Idade</th>
+                    <th>Professor</th>
+                    <th>Aluno</th>
+                    <th>Turma</th>
                     <th>Data</th>
+                    <th>Motivo</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Maria</td>
-                    <td>17</td>
-                    <td>11/06/2024</td>
+                    <td>Wagner</td>
+                    <td>Vinicius</td>
+                    <td>3° C DS</td>
+                    <td>1/9/2024</td>
+                    <td onclick="alert('Vinicius: Completou todas as atividades da sala de aula e não dormiu em sala de aula.')">Clique aqui</td>
                 </tr>
                 <tr>
-                    <td>João</td>
-                    <td>17</td>
-                    <td>23/09/2024</td>
+                    <td>Wagner</td>
+                    <td>André</td>
+                    <td>3° C DS</td>
+                    <td>2/09/2024</td>
+                    <td onclick="alert('André: Fez porra nenhuma.')">Clique aqui</td>
                 </tr>
                 <tr>
-                    <td>Ana</td>
-                    <td>16</td>
+                    <td>Wagner</td>
+                    <td>Gustavo</td>
+                    <td>3° C DS</td>
                     <td>12/09/2024</td>
+                    <td onclick="alert('Gordo: Comeu a merenda da escola toda.')">Clique aqui</td>
+                </tr>
+                <tr>
+                    <td>Wagner</td>
+                    <td>Bernardo</td>
+                    <td>3° C DS</td>
+                    <td>12/09/2024</td>
+                    <td onclick="alert('Bernardo: Cagou na aula.')">Clique aqui</td>
                 </tr>
             </tbody>
         </table>
     </main>
    
     <footer>
-a
+        <h1>
+            Registro de ocorrências no Colégio Cívico Militar Tarquínio Santos.
+        </h1>
     </footer>
 </body>
 </html>
