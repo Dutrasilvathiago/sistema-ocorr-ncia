@@ -47,14 +47,14 @@
 }
 .foto_perfil{
     position: absolute;
-    left: 2%;
-    top: 7%;
+    margin-right: 86%;
+    margin-top: 0.5%;
 }
 
 .nome_perfil{
     position: absolute;
-    left: 6%;
-    top: 10%;
+    margin-right: 75%;
+    margin-top: 0.5%;
 }
 
 .btn_config{
@@ -107,6 +107,12 @@ header li{
     text-decoration: none; 
     text-align: right;
 }
+
+#h2header:hover{
+    filter: invert(60%);
+}
+
+
 
 main{
     margin: 1%;

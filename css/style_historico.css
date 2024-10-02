@@ -22,6 +22,9 @@ h2 {
     text-decoration: none; 
     text-align: right;
 }
+#h2header:hover{
+    filter: invert(60%);
+}
 
 h4 {
     color: #ffffff;
