@@ -1,12 +1,14 @@
 function cadastro(){
     const nome = document.getElementById('nome').value;
     const cgm = document.getElementById('cgm').value;
-    const email = document.getElementById('em').value;
-    const password = document.getElementById('senha').value;
+    const rua = document.getElementById('ed1').value;
+    const numero = document.getElementById('ed2').value;
+    const bairro = document.getElementById('ed3').value;
     alert(nome);
-    alert(email);
     alert(cgm);
-    alert(password);
+    alert(rua);
+    alert(numero);
+    alert(bairro);
 }
 
 function cadastro_ocorrencia(){
@@ -23,10 +25,12 @@ function cadastro_ocorrencia(){
 function cadastro_prof(){
     const nome_p = document.getElementById('prof').value;
     const cpf = document.getElementById('cpf').value;
-    const email_prof = document.getElementById('em_prof').value;
-    const senha_prof = document.getElementById('sen').value;
+    const prua = document.getElementById('prof_ed1').value;
+    const pnumero = document.getElementById('prof_ed2').value;
+    const pbairro = document.getElementById('prof_ed3').value;
     alert(nome_p);
     alert(cpf);
-    alert(email_prof);
-    alert(senha_prof);
+    alert(prua);
+    alert(pnumero);
+    alert(pbairro);
 }
