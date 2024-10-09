@@ -46,6 +46,10 @@ body {
     cursor: pointer;
   }
 
+  button:hover{
+    filter: invert(15%);
+  }
+
   .btn_voltar{
     background-color: #4CAF50;
     color: white;
@@ -53,6 +57,10 @@ body {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+  }
+
+  .btn_voltar:hover{
+    filter: invert(15%);
   }
 
   img{

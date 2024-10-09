@@ -14,9 +14,17 @@
     size: 10px;
 }
 
+.btn_inf:hover{
+    filter: invert(20%);
+}
+
 
 .btn_oco{
     height: 10%;
+}
+
+.btn_oco:hover{
+    filter: invert(20%);
 }
 
 .btn_cfg{
@@ -24,6 +32,10 @@
     left: 71%;
     height: 50%;
     
+}
+
+.btn_cfg:hover{
+    filter: invert(20%);
 }
 
 .login_prof{
