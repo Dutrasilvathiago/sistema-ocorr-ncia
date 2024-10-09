@@ -7,7 +7,8 @@
 <body>
   <img src="imagens/CadastroIMG.png" alt="" class="cadastroimg">
   <h1>Cadastre-se</h1>
-  <div class="form">
+  <form action="" class="form" name="formu">
+  
     <label for="name">Nome Aluno:</label>
     <input type="text" id="nome" name="name" required><br><br>
 
@@ -17,15 +18,19 @@
     <label for="endereco">Rua:</label>
     <input type="text" id="ed1" name="endereco" required><br><br>
 
-    <label for="endereco">Número:</label>
+    <label for="endereco">Bairro:</label>
     <input type="text" id="ed2" name="endereco" required><br><br>
 
-    <label for="endereco">Bairro:</label>
+    <label for="endereco">UF:</label>
+    <input type="text" id="ed2" name="endereco" required><br><br>
+
+    <label for="endereco">Número:</label>
     <input type="text" id="ed3" name="endereco" required><br><br>
 
     <button onclick="cadastro()">Cadastrar</button>
     <a href="principal.html"><button class="btn_voltar">Voltar</button></a>
-  </div>
+  
+  </form>
     
   <script src="front.js"></script>
 </body>

@@ -6,8 +6,9 @@
 </head>
 <body>
   <img src="imagens/CadastroIMG.png" alt="" class="cadastroimg">
-  <h1>Cadastre-se</h1>
-  <div class="form">
+  <h1>Cadastrar Professor</h1>
+  <form action="" class="form" name="formu">
+  
     <label for="name">Nome Professor:</label>
     <input type="text" id="prof" name="name" required><br><br>
 
@@ -17,16 +18,26 @@
     <label for="endereco">Rua:</label>
     <input type="text" id="prof_ed1" name="endereco" required><br><br>
 
-    <label for="endereco">Número:</label>
+    <label for="endereco">Bairro:</label>
     <input type="text" id="prof_ed2" name="endereco" required><br><br>
 
-    <label for="endereco">Bairro:</label>
+    <label for="endereco">UF:</label>
+    <input type="text" id="prof_ed2" name="endereco" required><br><br>
+
+    <label for="endereco">Número:</label>
     <input type="text" id="prof_ed3" name="endereco" required><br><br>
+
+    <label for="endereco">Telefone:</label>
+    <input type="text" id="prof_ed2" name="endereco" required><br><br>
+
+    <label for="endereco">E-mail:</label>
+    <input type="text" id="prof_ed2" name="endereco" required><br><br>
 
 
     <button onclick="cadastro_prof()">Cadastrar</button>
     <a href="principal.html"><button class="btn_voltar">Voltar</button></a>
-  </div>
+ 
+</form>
 
   <script src="front.js"></script>
 </body>
