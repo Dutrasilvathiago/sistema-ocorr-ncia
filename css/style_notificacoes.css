@@ -114,7 +114,6 @@ header li{
 }
 
 
-
 main{
     margin: 1%;
     justify-content: center; 
@@ -143,4 +142,25 @@ footer{
     display: flex;
     justify-content: center; 
     align-items: center; 
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.notifications {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background-color: #444;
 }

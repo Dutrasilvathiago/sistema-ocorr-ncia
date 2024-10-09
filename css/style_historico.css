@@ -22,6 +22,7 @@ h2 {
     text-decoration: none; 
     text-align: right;
 }
+
 #h2header:hover{
     filter: invert(60%);
 }
@@ -78,17 +79,22 @@ td:hover {
     left: 44%;
     color: #006FBF; 
 }
+
 .cadastrar{
     position: absolute;
     top: 7%;
     left: 55%;
 }
+
 .foto_perfil{
     position: absolute;
-    left: 2%;
-    top: 7%;
+    margin-left: -88%
 }
 
+.nome_perfil{
+    position: absolute;
+    margin-left: -75%
+}
 
 .btn_config{
     position: absolute;
