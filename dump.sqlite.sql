@@ -15,6 +15,21 @@ CREATE TABLE funcionario(
   endereco_r text NOT NULL,
   endereco_n text NOT NULL
   );
+CREATE TABLE ocorencia(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  cmg_aluno VARCHAR(20) UNIQUE NOT NULL,
+  func_cpf VARCHAR(20) UNIQUE NOT NULL,
+  ocorrencia VARCHAR(200),
+  ocor_data TEXT, 
+  FOREIGN KEY (cmg_aluno) REFERENCES aluno(cmg)
+  );
+CREATE TABLE renponsavel(
+  id_resp INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome VARCHAR(40) NOT NULL,
+  telefone TEXT NOT NULL,
+  cgm_al VARCHAR(20) UNIQUE not NULL,
+  FOREIGN KEY (cgm_al) REFERENCES aluno(cgm)
+);
  
 -- INDEX
  
