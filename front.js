@@ -34,3 +34,21 @@ function cadastro_prof(){
     alert(pnumero);
     alert(pbairro);
 }
+
+
+
+function cadastro_responsavel(){
+    const nome = document.getElementById('nome').value;
+    const cpf = document.getElementById('cpf').value;
+    const cgm = document.getElementById('cgm').value;
+    
+    const rua = document.getElementById('ed1').value;
+    const numero = document.getElementById('ed2').value;
+    const bairro = document.getElementById('ed3').value;
+    alert(nome);
+    alert(cpf);
+    alert(cgm);
+    alert(rua);
+    alert(numero);
+    alert(bairro);
+}
