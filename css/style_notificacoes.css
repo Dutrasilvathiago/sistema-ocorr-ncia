@@ -6,8 +6,7 @@
     position: absolute;
     top: 8%;
     left: 12%;
-    color: #006FBF;
-    
+    color: #006FBF; 
 }
 
 .btn_inf{
@@ -22,24 +21,21 @@
 .btn_cfg{
     top: 30%;
     left: 71%;
-    height: 50%;
-    
+    height: 50%;  
 }
 
 .login_prof{
     position: absolute;
     top: 8%;
     left: 4%;
-    color: #006FBF;
-    
+    color: #006FBF; 
 }
 
 .login_ocor{
     position: absolute;
     top: 8%;
     left: 16%;
-    color: #006FBF;
-    
+    color: #006FBF;  
 }
 
 .cadastrar{
