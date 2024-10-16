@@ -35,20 +35,19 @@ function cadastro_prof(){
     alert(pbairro);
 }
 
-
-
 function cadastro_responsavel(){
-    const nome = document.getElementById('nome').value;
-    const cpf = document.getElementById('cpf').value;
-    const cgm = document.getElementById('cgm').value;
-    
-    const rua = document.getElementById('ed1').value;
-    const numero = document.getElementById('ed2').value;
-    const bairro = document.getElementById('ed3').value;
-    alert(nome);
-    alert(cpf);
-    alert(cgm);
-    alert(rua);
-    alert(numero);
-    alert(bairro);
+    const nome_resp = document.getElementById('nome_resp').value;
+    const cpf_resp = document.getElementById('cpf_resp').value;
+    const tel_resp = document.getElementById('tel_resp').value;
+    const cgm_al = document.getElementById('cgm_al').value;
+    const rua_resp = document.getElementById('ed1_resp').value;
+    const bairro_resp = document.getElementById('ed2_resp').value;
+    const uf_resp = document.getElementById('ed3_resp').value;
+    alert(nome_resp);
+    alert(cpf_resp);
+    alert(tel_resp);
+    alert(cgm_al);
+    alert(rua_resp);
+    alert(bairro_resp);
+    alert(uf_resp);
 }
