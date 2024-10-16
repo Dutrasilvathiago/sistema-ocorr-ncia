@@ -30,3 +30,21 @@ function cadastro_prof(){
     alert(email_prof);
     alert(senha_prof);
 }
+
+function cadastro_responsavel(){
+    const nome_res = document.getElementById('nome_resp').value;
+    const cpf_res = document.getElementById('cpf_resp').value;
+    const num_resp= document.getElementById('num_resp').value;
+    const cgm_aluno= document.getElementById('cgm_aluno').value;
+    const rua = document.getElementById('rua').value;
+    const bairro= document.getElementById('bairro').value;
+    const uf= document.getElementById('uf').value;
+    alert(nome_res);
+    alert(cpf_res);
+    alert(num_resp);
+    alert(cgm_aluno);
+    alert(rua);
+    alert(bairro);
+    alert(uf);
+
+}
