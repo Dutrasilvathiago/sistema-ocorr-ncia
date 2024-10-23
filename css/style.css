@@ -91,9 +91,7 @@ body{
   color: #006FBF;
 }
 
-.btn_inf{
-  size: 10px;
-}
+
 
 .btn_inf:hover{
   filter: invert(20%);
@@ -162,10 +160,6 @@ body{
 /*final CSS principal*/
 
 /*Começo CSS historico*/
-.h1_his{
-  color: #006fbf;
-  text-align: center;
-}
 
 #h2header{ 
   font-family: Arial, Helvetica, sans-serif; 
@@ -184,6 +178,11 @@ body{
   margin: 20px auto;
   border-collapse: collapse;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.txt_histo{
+  color: #000000;
+  text-align: center;
 }
 
 .th_his{
@@ -210,12 +209,7 @@ body{
   background-color: #EFEFEF;
   height: 40rem;
 }
-.btn_inf{
-  position: absolute;
-  height: 50%;
-  top: 30%;
-  left: 10%;
-}
+
 
 .btn_oco{
   position: absolute;
@@ -224,14 +218,7 @@ body{
   height: 50%;
 }
 
-.btn_cfg{
-  position: absolute;
-  align-self: center;
-  justify-content: center;
-  padding-left: 70%;
-  padding-top: 10%;
-  height: 50%; 
-}
+
 
 .btn_home{
   position: absolute;
@@ -242,10 +229,7 @@ body{
 }
 /*final CSS histotrico*/
 
-h1 {
-  margin-bottom: 20px;
-  color: #ffffff;
-}
+
   
 .form {
   background-color: #efefef;
@@ -261,6 +245,14 @@ h1 {
   padding: 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 350px;
+}
+
+.form3 {
+  position: absolute;
+  padding: 30px;
+  width: 350px;
+  left: 84%;
+  
 }
 
 label {
