@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro responsavel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+  <img src="imagens/CadastroIMG.png" alt="" class="cadastroimg">
+  <h1>Cadastro Responsavel</h1>
+  <form action="" class="form" name="formu">
+  
+    <label for="name">Nome completo do responsavel:</label>
+    <input type="text" id="nome_resp" name="name" required><br><br>
+
+    <label for="buscaAluno">Buscar Aluno (CGM ou Nome):</label>
+    <input type="text" id="buscaAluno" name="buscaAluno" placeholder="Digite o CGM ou Nome" oninput="buscarAluno()">
+
+    <label for="alunoSelecionado">Aluno Selecionado:</label>
+    <select id="alunoSelecionado" name="alunoSelecionado" required>
+        <option value="">Selecione um aluno</option>
+        <!-- opções de alunos preenchidas vai aparecer aqui -->
+    </select>
+
+    <label for="endereco">Rua:</label>
+    <input type="text" id="ed1_resp" name="endereco" required><br><br>
+
+    <label for="endereco">Bairro:</label>
+    <input type="text" id="ed2_resp" name="endereco" required><br><br>
+
+    <label for="endereco">Número:</label>
+    <input type="text" id="ed3_resp" name="endereco" required><br><br>
+
+    
+  </form>
+  
+    <div class="form2"> 
+      <button onclick="cadastroResponsavel()">Cadastrar</button>
+      <a href="principal.html"><button class="btn_voltar">Voltar</button></a>
+      <button onclick="consultarResponsavel()">Consultar</button>
+    </div>
+
+  <table id="resultadoConsulta" border="1">
+      <thead>
+          <tr>
+              <th>CGM</th>
+              <th>Nome</th>
+              <th>rua</th>
+              <th>bairro</th>
+              <th>numero</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- Resultados serão inseridos aqui -->
+      </tbody>
+  </table>
+  
+  <script src="front.js"></script>
+</body>
+</html>

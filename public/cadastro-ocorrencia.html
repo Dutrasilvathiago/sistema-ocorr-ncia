@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registrar ocorrencia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <img src="imagens/OcorrenciaIMG.png" alt="" class="ocorrenciaimg">
+  <h1>Relatar Ocorrência</h1>
+  <form action="" class="form" name="formu">
+    <label for="buscaAluno">Buscar Aluno (CGM ou Nome):</label>
+    <input type="text" id="buscaAluno" name="buscaAluno" placeholder="Digite o CGM ou Nome" oninput="buscarAluno()">
+
+    <label for="alunoSelecionado">Aluno Selecionado:</label>
+    <select id="alunoSelecionado" name="alunoSelecionado" required>
+        <option value="">Selecione um aluno</option>
+        <!-- opções de alunos preenchidas vai aparecer aqui -->
+    </select>
+
+    <label for="buscaprof">Buscar professor (CPF ou Nome):</label>
+    <input type="text" id="buscaprof" name="buscarprof" placeholder="Digite o CPF ou Nome" oninput="buscarProfessor()">
+
+
+    <label for="profSelecionado">Professor Selecionado:</label>
+    <select id="profSelecionado" name="profSelecionado" required>
+        <option value="">Selecione um Professor</option>
+        <!-- opções de professor preenchidas vai aparecer aqui -->
+    </select>
+
+    <label for="cgm">Turma do Aluno:</label>
+    <input type="text" id="turma" name="turma" required><br><br>
+
+    <label for="text">Ocorrência:</label>
+    <input type="text" id="ocor" name="ocor" required><br><br>
+  </form>
+
+
+<div class="form2">
+  <button onclick="cadastroOcorrencia()">Cadastrar</button>
+  <a href="principal.html"><button class="btn_voltar">Voltar</button></a>
+  <button onclick="consultarOcorrencia()">consultar</button>
+</div>
+
+  <table id="resultadoConsulta" border="1">
+      <thead>
+          <tr>
+              <th>CGM_aluno</th>
+              <th>professor</th>
+              <th>turma</th>
+              <th>ocorrencia</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- Resultados serão inseridos aqui -->
+      </tbody>
+  </table>
+  
+  <script src="front.js"></script>
+</body>
+</html>

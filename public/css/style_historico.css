@@ -1,0 +1,199 @@
+.btn_home{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    color: #006FBF; 
+}
+
+h1 {
+    color: #006fbf;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    text-align: left;
+}
+
+#h2header{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #006fbf;
+    font-size: 20px; 
+    text-decoration: none; 
+    text-align: right;
+}
+
+#h2header:hover{
+    filter: invert(60%);
+}
+
+h4 {
+    color: #ffffff;
+    background-color: #006fbf;
+    text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td:hover {
+    background-color: #ffad01;
+}
+
+.logo{
+    width: 120px;
+}
+
+.login_btn{
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    color: #006FBF; 
+}
+
+.cadastrar{
+    position: absolute;
+    top: 7%;
+    left: 55%;
+}
+
+.foto_perfil{
+    position: absolute;
+    margin-left: -88%
+}
+
+.nome_perfil{
+    position: absolute;
+    margin-left: -75%
+}
+
+.btn_config{
+    position: absolute;
+    left: 90%;
+    top: 7%;
+}
+
+.time{
+    position: absolute;
+    left: 89%;
+    top: 15%;
+    font-style: oblique;
+}
+
+body{
+    margin-right: 20px;
+    border: 1px;
+    background-color: #006FBF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid; 
+    grid-template-areas:  /*grid*/
+    "hed hed hed"
+    "asi asi asi"
+    "mai mai mai"
+    "foo foo foo";
+    grid-template-columns: 0.5fr 3fr; /* tamanho da colunas no grid*/
+    grid-gap: 4px;/*espaçamento entres o main, aside , header e footer */
+}
+
+header{
+    margin: 1%;
+    grid-area: hed;
+    background-color: #EFEFEF;
+    height: 10rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+header li{ 
+    padding-left: 15px; 
+    display: inline-flex; 
+}
+
+main{
+    margin: 1%;
+    position: relative;
+    grid-area: mai;
+    background-color: #EFEFEF;
+    height: 40rem;
+}
+
+.btn_inf{
+    position: absolute;
+    height: 50%;
+    top: 30%;
+    left: 10%;
+}
+
+
+.btn_oco{
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    height: 50%;
+}
+
+.btn_cfg{
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    padding-left: 70%;
+    padding-top: 10%;
+    height: 50%; 
+}
+
+aside{
+    margin: 1%;
+    height: auto;
+    grid-area: asi;
+    background-color: #EFEFEF;
+    height: 10rem;
+}
+
+footer{
+    margin: 1%;
+    position: relative;
+    grid-area: foo;
+    background-color: #EFEFEF;
+    height: 10rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn_home{
+    position: absolute;
+    top: 8%;
+    left:12%;
+    width: 5%;
+    height: 5%;
+}

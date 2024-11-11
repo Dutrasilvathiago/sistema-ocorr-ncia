@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Alunos e Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">aluno</a>
+        <a href="responsavel.html"">responsavel</a>
+        <a href="consulta.html" class="active">consulta</a>
+    </nav>
+    <h1>Consulta de Alunos e Notas</h1>
+    <main>
+        <form id="formConsulta">
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="cgm">CGM do Aluno:</label>
+            <input type="text" id="cgm" name="cgm">
+
+            <label for="responsavel">responsavel</label>
+            <input type="text" id="responsavel" name="responsavel">
+
+            <button onclick="consultarAlunos()">Consultar</button>
+        </form>
+
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
